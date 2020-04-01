@@ -10,4 +10,13 @@ git rebase   - reapply commits on top of another base tip
 Resolving conflicts
 -------------------
 
-TODO
+It looks like this:
+
+```
+<<<<<<< HEAD
+change 1
+=======
+change 2
+>>>>>>> new_branch
+```
+
